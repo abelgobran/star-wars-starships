@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  background-image: url('C:\Users\mass\Desktop\perscholas2021\reactStuff\react-star-wars\src\images\space_civilization2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.title{
+  
+    position: relative;
+    display: inline-block;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: italic;
+    
+   
+    white-space: nowrap     
+
+}
+
+
+.nav {
+  background-color: #282c34 ;
+  opacity:0.9;
+  
+  display: flex;
+  flex-direction: row;
+  align-items:stretch;
+  justify-content: space-evenly;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.ships li{
+  display:grid;
+  text-align:left;
+  padding: 10px;
+  border: 5px solid;
+  background-color: tomato;
+  opacity: .8;
+  
+}
+.planets li{
+  display:grid;
+  text-align:left;
+  padding: 10px;
+  border: 5px solid;
+  background-color: tomato;
+  opacity: .8;
+  
+}
